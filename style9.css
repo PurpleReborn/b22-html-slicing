@@ -1,0 +1,70 @@
+.bg{
+    background-image: url(assets9/bg.png);
+    width: 100%;
+    height: 1112px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Poppins;
+}
+
+@media only screen and (max-width: 750px) {
+    .bg{
+        background-image: url(assets9/bg.png);
+        width: 100%;
+        height: 2000px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: Poppins;
+    }
+  }
+
+  @media only screen and (max-width: 750px) {
+    .modal-box{
+        width: 100px;
+        height: 150px;
+    }
+
+  }
+
+.footer{
+    height: 548px;
+}
+
+.box{
+    width: 394px;
+    height: 126px;
+}
+
+.kanan{
+    text-align: right;
+    padding-right: 130px;
+    padding-top: 15px;
+    padding-bottom: 37px;
+}
+
+.cek{
+    padding-left: 270px;
+}
+
+
+.modal{
+    background: rgba(0, 0,0, 0.5);
+    top: 0px;
+    height: 300%;
+    font-family: Poppins;
+    position: absolute;
+}
+
+.modal-box{
+    width: 728px;
+    height: 356px;
+}
+
+.text-modal{
+    width: 505px;
+}
+
+.btn{
+    width: 194px;
+    height: 84px;
+}

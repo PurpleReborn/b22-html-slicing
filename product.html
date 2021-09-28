@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;600&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></script>
+    <title>Document</title>
+</head>
+<body class="flex flex-col divide-y-2">
+
+    <header class="bg-white flex mx-4 md:justify-around flex-col md:flex-row  md:items-center py-5 space-y-4">
+
+            <figure class="flex md:justify-between space-x-3">
+                <img src="assets/coffe-icon.png " >  
+                <p id="coffe_shp" class="items-center font-bold text-xl" >
+                    Coffee Shop
+                </p>
+            </figure>
+
+            <nav>
+                <ul idheaderbar" class="flex md:justify-between space-x-3 md:space-x-7 " style="color:#4F5665;">
+                    <li class="font-semibold hover:text-yellow-900"><a href="index.html">Home</a></li>
+                    <li class="font-semibold hover:text-yellow-900"><a href="#">Product</a></li>
+                    <li class="font-semibold hover:text-yellow-900"><a href="yourcart.html">Your Cart</a></li>
+                    <li class="font-semibold hover:text-yellow-900"><a href="histori.html">History</a></li>
+                </ul>
+            </nav>
+
+            <nav>
+            <ul id="navbar2" class="flex md:justify-between space-x-7">
+                <li><img src="assets3/Vector.png" class="w-8 h-8"></li>
+                <li><img src="assets3/chat.png" class="w-8 h-8"></li>
+                <li><a href="profil.html"><img src="assets3/ujung.png" class="w-8 h-8 rounded-full"></a></li>
+            </ul>
+            </nav>
+
+    </header>
+
+    <main class="flex flex-col md:flex-row divide-x-2 ">
+
+        <section class="flex-col flex-2 md:pr-16 " >
+        <!-- style="width: 440px; height: 1039px;" -->
+        
+            <p class="font-bold text-2xl text-yellow-900 mt-6 mb-10 text-center">Promo for you</p>
+            <p class="mb-10 text-center font-medium">Coupons will be updated every weeks. <br> Check them out! </p>
+                <section class="flex flex-row items-center justify-center">
+
+                    <article class="flex flex-col divide-y-2 divide-black space-y-5 divide-dashed box1 bg-yellow-200  rounded-3xl md:ml-20 text-center" >
+                        <!-- style="width: 284px; height: 472px;" -->
+                        <div class="flex-1">
+                            <figure class="flex  justify-center pt-4 md:pt-16">
+                            <img src="assets3/img-left.png" class="md:w-32 md:h-32 w-24 h-24 rounded-full" >
+                            </figure>
+                            <p class="mt-2 text-xl font-bold text-black">Beef Spaghetti <br>20% OFF</p>
+                            <p class="md:w-64 w-48 ml-auto mr-auto ">Buy 1 Choco Oreo and get 20% off for Beef Spaghetti</p>
+                        </div>
+
+                        <ul class="flex-1 pt-4">
+                            <li class="text-base">COUPON CODE</li>
+                            <li class="font-bold text-3xl mb-3 mt-3">FNPR15RG</li>
+                            <li class="text-xs">Valid untill October 10th 2020</li>
+                        </ul>
+
+
+                    </article>
+
+                    <div class="w-7 md:h-96 h-72 bg-black rounded-r-3xl mt-auto mb-auto" ></div>
+                    <!-- style="width: 28px; height: 400px;"  -->
+                    <div class=" w-5  md:h-80 h-48 bg-yellow-800  rounded-r-3xl mt-auto mb-auto "  ></div>
+                    <!-- style="width: 28px; height: 338px;" -->
+                </section>
+
+                <div class="flex mr-auto ml-auto text-center flex flex-row justify-center" >
+                    <!-- style="width: 284px; " -->
+                    <button class="w-40 md:w-72 md:ml-8  h-12 md:h-16 text-base md:text-xl font-bold bg-yellow-800 text-white hover:bg-yellow-200 font-bold rounded-2xl  mt-10">
+                        Apply Coupon
+                    </button>
+                </div>
+                <p class="mt-24 ml-14 leading-6">
+                    <span class="font-semibold">Terms and Condition </span> <br>
+                    1. You can only apply 1 coupon per day <br>
+                    2. It only for dine in <br>
+                    3. Buy 1 get 1 only for new user <br>
+                    4. Should make member card to apply coupon 
+                </p>
+        </section>
+
+        <div class=" flex-1">
+            <ul class="flex justify-around space-x-4 md:space-x-0 mx-10 md:ml-28 md:mr-28 mt-8 mb-10" >
+                <!-- style="color: #9F9F9F;" -->
+                <li class="hover:text-yellow-900">Favorite Product</li>
+                <li class="hover:text-yellow-900">Coffee</li>
+                <li class="hover:text-yellow-900">Non Coffee</li>
+                <li class="hover:text-yellow-900">Foods</li>
+                <li class="hover:text-yellow-900">Add-on</li>
+            </ul>
+
+           
+
+           
+            <section class="grid grid-cols-2 mx-4 md:mx-0  md:grid-cols-4  gap-20 md:mr-20 md:ml-20 mt-28 ">
+
+                <a href="detail.html">
+                    <article class="item1 border-2 border-transparent border-3xl rounded-3xl hover:border-yellow-400 w-40  h-52 bg-white rounded-3xl shadow-2xl ">
+                        <img src="assets3/img-2.png" class="rounded-full -mt-10 ml-4 absolute">
+                        <p class="text-center pt-24 w-20 mx-auto leading-5 font-black text-xl ">Veggie tomato mix</p>
+                        <p class="text-center mt-1 text-yellow-900 text-base font-bold">IDR 34.000</p> 
+                    </article>
+                </a>
+
+                <a href="detail.html">
+                    <article class="item1 border-2 border-transparent border-3xl rounded-3xl hover:border-yellow-400">
+                        <div class="w-40  h-52 bg-white rounded-3xl shadow-2xl">
+                            <img src="assets3/img-1-2.png" class=" rounded-full -mt-10 ml-4 absolute">
+                        <div class="text-center pt-24 w-20 mx-auto leading-5 font-black text-xl mb-6">Hazelnut Latte</div>
+                        <p class="text-center mt-1 text-yellow-900 text-base font-bold">IDR 25.000</p>
+                        </div>
+                    </article>
+                </a>
+
+                <a href="detail.html">
+                    <article class="item1 item1 border-2 border-transparent border-3xl rounded-3xl hover:border-yellow-400">
+                        <div class="w-40  h-52 bg-white rounded-3xl shadow-2xl">
+                            <img src="assets3/img-1-3.png" class="rounded-full -mt-10 ml-4 absolute">
+                        <p class="text-center pt-24 w-24 mx-auto leading-5 font-black text-xl ">Summer fried rice</p>
+                        <p class="text-center mt-6 text-yellow-900 text-base font-bold">IDR 32.000</p>
+                        </div>
+                    </article>
+                </a>
+
+                <a href="detail.html">
+                    <article class="item1 item1 border-2 border-transparent border-3xl rounded-3xl hover:border-yellow-400 w-40  h-52 bg-white rounded-3xl shadow-2xl">
+                            <img src="assets3/img-1-4.png" class="rounded-full -mt-10 ml-4 absolute">
+                        <p class="text-center pt-24 w-24 mx-auto leading-5 font-black text-xl ">Creamy Ice Latte</p>
+                        <p class="text-center mt-6 text-yellow-900 text-base font-bold">IDR 27.000</p>
+                    </article>
+                </a>
+            
+
+            
+                <a href="detail.html">
+                    <article class="item1 item1 border-2 border-transparent border-3xl rounded-3xl hover:border-yellow-400 w-40  h-52 bg-white rounded-3xl shadow-2xl">
+                            <img src="assets3/img-2-1.png" class="rounded-full -mt-10 ml-4 absolute">
+                        <p class="text-center pt-24 w-20 mx-auto leading-5 font-black text-xl ">Drum Sticks</p>
+                        <p class="text-center mt-6 text-yellow-900 text-base font-bold">IDR 30.000</p>
+                    </article>
+                </a>
+
+                <a href="detail.html">
+                    <article class="item1 item1 border-2 border-transparent border-3xl rounded-3xl hover:border-yellow-400 w-40  h-52 bg-white rounded-3xl shadow-2xl">
+                            <img src="assets3/img-2-2.png" class="rounded-full -mt-10 ml-4 absolute">
+                        <p class="text-center pt-24 w-20 mx-auto leading-5 font-black text-xl ">Salty Rice</p>
+                        <p class="text-center mt-6 text-yellow-900 text-base font-bold">IDR 20.000</p>
+                    </article>
+                </a>
+
+                <a href="detail.html">
+                    <article class="item1 item1 border-2 border-transparent border-3xl rounded-3xl hover:border-yellow-400 w-40  h-52 bg-white rounded-3xl shadow-2xl">
+                        <img src="assets3/img-2-3.png" class="rounded-full -mt-10 ml-4 absolute">
+                    <p class="text-center pt-24 w-24 mx-auto leading-5 font-black text-xl ">Summer fried rice</p>
+                    <p class="text-center mt-6 text-yellow-900 text-base font-bold">IDR 32.000</p>
+                    </article>
+                </a>
+
+                <a href="detail.html">
+                    <article class="item1 item1 border-2 border-transparent border-3xl rounded-3xl hover:border-yellow-400 w-40  h-52 bg-white rounded-3xl shadow-2xl">
+                            <img src="assets3/img-2-4.png" class="rounded-full -mt-10 ml-4 absolute">
+                        <p class="text-center pt-24 w-24 mx-auto leading-5 font-black text-xl ">Creamy Ice Latte</p>
+                        <p class="text-center mt-6 text-yellow-900 text-base font-bold">IDR 27.000</p>
+                    </article>
+                </a>
+           
+
+            
+                <a href="detail.html">
+                    <article class="item1 item1 border-2 border-transparent border-3xl rounded-3xl hover:border-yellow-400 w-40  h-52 bg-white rounded-3xl shadow-2xl">
+                            <img src="assets3/img-2.png" class="rounded-full -mt-10 ml-4 absolute">
+                        <p class="text-center pt-24 w-20 mx-auto leading-5 font-black text-xl ">Veggie tomato mix</p>
+                        <p class="text-center mt-1 text-yellow-900 text-base font-bold">IDR 34.000</p>
+                    </article>
+                </a>
+
+                <a href="detail.html">
+                    <article class="item1 border-2 border-transparent border-3xl rounded-3xl hover:border-yellow-400 w-40  h-52 bg-white rounded-3xl shadow-2xl">
+                        <img src="assets3/img-1-2.png" class=" rounded-full -mt-10 ml-4 absolute">
+                    <p class="text-center pt-24 w-20 mx-auto leading-5 font-black text-xl mb-6">Hazelnut Latte</p>
+                    <p class="text-center mt-1 text-yellow-900 text-base font-bold">IDR 25.000</p>
+                    </article>
+                </a>
+
+                <a href="detail.html">
+                    <article class="item1 item1 border-2 border-transparent border-3xl rounded-3xl hover:border-yellow-400 w-40  h-52 bg-white rounded-3xl shadow-2xl">
+                        <img src="assets3/img-1-3.png" class="rounded-full -mt-10 ml-4 absolute">
+                    <p class="text-center pt-24 w-24 mx-auto leading-5 font-black text-xl ">Summer fried rice</p>
+                    <p class="text-center mt-6 text-yellow-900 text-base font-bold">IDR 32.000</p>
+                    </article>
+                </a>
+
+                <a href="detail.html">
+                    <div class="item1 item1 border-2 border-transparent border-3xl rounded-3xl hover:border-yellow-400 w-40  h-52 bg-white rounded-3xl shadow-2xl">
+                        <img src="assets3/img-1-4.png" class="rounded-full -mt-10 ml-4 absolute">
+                    <p class="text-center pt-24 w-24 mx-auto leading-5 font-black text-xl ">Creamy Ice Latte</p>
+                    <p class="text-center mt-6 text-yellow-900 text-base font-bold">IDR 27.000</p>
+                    </div>
+                </a>
+
+            </section>
+
+
+
+        </div>
+    </main>
+
+  
+
+    <footer class="bg-gray-100 footer flex flex-col px-4 md:mx-0 md:flex-row justify-around pt-24 md:-ml-40 ">
+        <section>
+            <div class="flex space-x-3">
+                <img src="assets/coffe-icon.png " >
+                <p id="coffe_shop" class="items-center font-bold text-xl" >
+                    Coffee Shop
+                </p>
+            </div>
+
+            <p id="text9" class="w-80 font-medium text-base pb-7 pt-7">Coffee Shop is a store that sells some good meals, and especially coffee. We provide high quality beans 
+            </p>
+
+            <figure class="flex">
+                <img src="assets/fb.png" class="mr-2 w-10 h-10">
+                <img src="assets/twit.png" class="mx-2 w-10 h-10" >
+                <img src="assets/ig.png" class="mx-2 w-10 h-10" >
+            </figure>
+            
+            <p class="pt-7" style="color:#AFB5C0; ">©2020CoffeeStore</p>
+        </section>
+
+        <aside class="bg-gray-100 flex -mr-44 md:pb-0 pb-10">
+        <p class="leading-10 text-sm md:text-lg pr-32" style="color: #4F5665;">
+            <span class="font-medium text-black"> Product </span> <br>
+            Download <br>
+            Pricing <br>
+            Locations <br>
+            Countries <br>
+            Blog <br>
+        </p>
+
+        <p class="leading-10 text-sm md:text-lg" style="color: #4F5665;">
+            <span class="font-medium text-black"> Engage </span> <br>
+            Coffe Shop ?  <br>
+            FAQ <br>
+            About Us <br>
+            Privacy Policy <br>
+            Terms of Service <br>
+        </p>
+        </aside>
+
+    </footer>
+
+ 
+
+    
+</body>
+</html>

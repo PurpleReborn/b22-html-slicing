@@ -1,0 +1,82 @@
+body{
+    font-family: Rubik;
+}
+#email, .btn2{
+    width: 505px;
+    height: 75px;
+}
+
+.loginText{
+    font-size: 36px;
+}
+
+.getYour{
+    line-height: 44px;
+}
+
+.footer{
+    height: 548px;
+}
+
+.sty1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 56px;
+    margin-right: 112px;
+}
+
+.rect2{
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin-top: -100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.bg{
+    display: block;
+}
+
+
+
+@media only screen and (max-width: 750px) {
+    .rect2{
+        padding-top: 20px;
+        width: 85%;
+        margin-top: -100px;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 10px;
+    }
+    #email, .btn2{
+        width: max-content;
+        height: 75px;
+    }
+    .bg{
+        display: none;
+    }
+    .sty1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .loginText{
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .getYour{
+        line-height: 26px;
+        font-size: 18px;
+    }
+}

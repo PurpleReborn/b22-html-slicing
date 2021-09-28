@@ -1,0 +1,51 @@
+.bg{
+    background-image: url(assets4/bg.png);
+    height: 1184px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 750px) {
+    .bg{
+        background-image: url(assets4/bg.png);
+        height: 2000px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+  }
+
+.box1{
+    width: 310px;
+    height: 358px;
+}
+
+.box2{
+    width: 802px;
+    height: 358px;
+}
+
+.box1-2{
+    width: 310px;
+    height: 12px;
+}
+
+.box1-3{
+    width: 802px;
+    height: 12px;
+}
+
+.box2-1{
+    width: 744px;
+    height: 9px;
+}
+
+.box3{
+    width: 744px;
+    height: 418px;
+}
+
+.footer{
+    height: 548px;
+}

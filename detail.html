@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,900;1,100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;600&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></script>
+    <link rel="stylesheet" href="style6.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header class="bg-white flex mx-4 md:justify-around flex-col md:flex-row  md:items-center py-5 space-y-4">
+
+        <figure class="flex md:justify-between space-x-3">
+                <img src="assets/coffe-icon.png " >
+            <p id="coffe_shop" class="items-center font-bold text-xl" >
+                Coffee Shop
+            </p>
+        </figure>
+
+        <nav>
+            <ul id="navbar" class="flex md:justify-between space-x-3 md:space-x-7 " style="color:#4F5665;">
+                <li class="font-semibold hover:text-yellow-900"><a href="index.html">Home</a></li>
+                <li class="font-semibold hover:text-yellow-900"><a href="product.html">Product</a></li>
+                <li class="font-semibold hover:text-yellow-900"><a href="yourcart.html">Your Cart</a></li>
+                <li class="font-semibold hover:text-yellow-900"><a href="histori.html">History</a></li>
+            </ul>
+        </nav>
+
+        <nav id="navbar2" class="flex md:justify-between space-x-7">
+            
+            <img src="assets3/Vector.png" class="w-8 h-8">
+            <img src="assets3/chat.png" class="w-8 h-8">
+            <a href="profil.html"><img src="assets3/ujung.png" class="w-8 h-8 rounded-full"></a>
+        </nav>
+        
+    </header>
+
+    <main class="bg-gray-200 bg">
+        <p class="text-center md:pb-20 pb-10 md:ml-36 pt-14 text-xl">Favorite & Promo <span class="font-bold">&#8250; Cold Brew</span> </p>
+
+        <div class="flex md:flex-row flex-col md:ml-28 md:mr-40 justify-between">
+
+            <article class=" items-center flex flex-col"> 
+                <div  class=" md:w-80 md:h-80 w-32 h-32 bg-yellow-900 rounded-full mb-10"><img src="assets6/img-1.png" class="rounded-full "> 
+                </div> 
+
+                <p class="font-medium text-center text-2xl md:mt-16 md:mb-11 leading-10 " > <span class="font-black text-xl md:text-5xl leading-10" >COLD BREW</span><br> 
+                   IDR 30.000
+                </p>
+                <p class="ml-auto mr-auto mt-14"> <button class="md:w-80 w-40 md:h-20 h-10 bg-yellow-900 hover:bg-yellow-600  rounded-lg text-white">Add to Cart</button> 
+                </p>
+                <p class="ml-auto mr-auto mt-6"> <button class="md:w-80 w-40 md:h-20 h-10 bg-yellow-400 hover:bg-yellow-200  rounded-lg">Ask a Staff</button> </p>
+            </article>
+
+            <div>
+                <article class="bg-gray-100 rounded-lg md:mt-0 mt-10" style="font-family: Poppins;">
+                    <p class="pt-20 md:pl-20 px-4 text-base md:text-2xl text-yellow-900">Delivery only on <span class="font-semibold">Monday to <br> friday </span> at <span class="font-semibold"> 1 - 7 pm </span> </p>
+                    <p class="pt-11 md:pl-20 px-4 text-base md:text-2xl text-yellow-900 pr-20">Cold brewing is a method of <br> brewing that combines ground <br> coffee and cool water and uses <br> time instead of heat to extract the <br> flavor. It is brewed in small batches <br> and steeped for as long as 48 hours.</p>
+                    <p class="pt-14  text-2xl text-black text-center font-bold ">Choose a size</p>
+                    <div class="flex pb-20 flex-row justify-between md:mr-48 mx-10 md:mx-0 md:ml-48 pt-11">
+                        <p class="flex  font-bold text-xl md:text-3xl hover:bg-yellow-900 bg-yellow-400 w-10 h-8 md:w-14 md:h-12 flex flex-col justify-center text-center rounded-full">R
+
+                        </p>
+                        <p class="flex  font-bold text-xl md:text-3xl hover:bg-yellow-900 bg-yellow-400 w-10 h-8 md:w-14 md:h-12 flex flex-col justify-center text-center rounded-full">L
+
+                        </p>
+                        <p class="flex  font-bold text-xl md:text-3xl hover:bg-yellow-900 bg-yellow-400 w-10 h-8 md:w-14 md:h-12 flex flex-col justify-center text-center rounded-full">XL
+
+                        </p>
+                    </div>
+                </article>
+
+                    <p class="text-center pt-8 text-xl font-bold">Choose Delivery Methods</p>
+                    <section class="flex justify-between pt-7 md:mx-0 md:space-x-3 mx-4 md:pl-32 md:pr-32">
+                        <button class="bg-gray-100 w-20 md:w-24 h-12 text-gray-500 rounded-xl md:text-base text-sm font-bold focus:bg-yellow-900 focus:text-white">
+                            Dine in</button> 
+                       
+
+                         <button class="bg-gray-100 w-36 md:w-36 h-12 text-gray-500 rounded-xl md:text-base text-sm font-bold focus:bg-yellow-900 focus:text-white">
+                            Door Delivery</button> 
+                        
+
+                         <button class="bg-gray-100  w-20 md:w-24 h-12 text-gray-500 rounded-xl md:text-base text-sm font-bold  focus:bg-yellow-900 focus:text-white">
+                            Pick up</button> 
+                        
+                        
+                    </section>
+                    <section class="flex  flex-row justify-center pt-10 ">
+                        <label for="email" class="mr-4 text-xl">Set time :</label>
+                        <input type="text" name="email" class="    bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-yellow-900 border-yellow-900 w-40 md:w-72 ">
+                    </section>
+            </div>
+        </div>
+
+    </main>
+                       
+    <footer class="bg-gray-100 footer bg-gray-100 flex flex-col px-4 md:mx-0 md:flex-row justify-around pt-24 md:-ml-40 ">
+
+      
+        <section>
+            <figure class="flex space-x-3">
+                    <img src="assets/coffe-icon.png " >
+                <p id="coffe_shop" class="items-center font-bold text-xl" >
+                    Coffee Shop
+                </p>
+            </figure>
+
+            <p id="text9" class="w-80 font-medium text-base pb-7 pt-7">Coffee Shop is a store that sells some good meals, and especially coffee. We provide high quality beans 
+            </p>
+
+            <figure class="flex">
+                <img src="assets/fb.png" class="mr-2 w-10 h-10">
+                <img src="assets/twit.png" class="mx-2 w-10 h-10" >
+                <img src="assets/ig.png" class="mx-2 w-10 h-10" >
+            </figure>
+            
+            <p class="pt-7" style="color:#AFB5C0; ">©2020CoffeeStore</p>
+        </section>
+
+        <section class="bg-gray-100 flex -mr-44 md:pb-0 pb-10">
+        <p class="leading-10 text-sm md:text-lg pr-32" style="color: #4F5665;">
+            <span class="font-medium text-black"> Product </span> <br>
+            Download <br>
+            Pricing <br>
+            Locations <br>
+            Countries <br>
+            Blog <br>
+        </p>
+
+        <p class="leading-10 text-sm md:text-lg" style="color: #4F5665;">
+            <span class="font-medium text-black"> Engage </span> <br>
+            Coffe Shop ?  <br>
+            FAQ <br>
+            About Us <br>
+            Privacy Policy <br>
+            Terms of Service <br>
+        </p>
+        </section>
+
+  
+
+    </footer>
+    
+</body>
+</html>

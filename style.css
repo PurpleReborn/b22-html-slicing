@@ -1,0 +1,136 @@
+body{
+    font-family: Rubik;
+}
+
+#coffe_shop{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#navbar, #navbar2 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+#navbar{
+    color: #4F5665;
+}
+
+
+
+.bg{
+    background-image: url(assets/bg-home.png);
+    height: 645px;
+    /* width: 100%;
+    background-repeat: no-repeat; */
+    
+}
+
+#start{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 70px;
+}
+
+/* #start2{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+} */
+
+#btn2{
+    background: #FFBA33;
+    color: #6A4029;
+    ;
+}
+
+
+#box{
+    color: black;
+}
+
+#rect{
+    width: 85%;
+    margin-top: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+#rect span{
+    color: #4F5665;
+}
+
+#bg2{
+    background-color: #BCBABA;
+}
+
+#ckls1::after{
+    content: 'High quality beans';
+}
+
+#cklsimg{
+    width: 50px;
+}
+
+.box5{
+    height: 760px;
+}
+
+@media only screen and (max-width: 768px) {
+    .box5{
+        height: 500px;
+    }
+  }
+
+.btn5{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vector{
+    width: 75%;
+}
+
+#rect2{
+    width: 85%;
+    margin-top: -100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+
+#text9{
+    color: #4F5665;
+
+}
+
+.slider{
+    width: 100%;
+    overflow-x: scroll;
+}
+
+footer{
+    max-height: max-content;
+    height: 548px;
+    position: relative;
+    bottom: 0px;
+}

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style4.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;600&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header class="bg-white flex mx-4 md:justify-around flex-col md:flex-row  md:items-center py-5 space-y-4">
+
+        <figure class="flex md:justify-between space-x-3">
+                <img src="assets/coffe-icon.png " >
+            <p id="coffe_shop" class="items-center font-bold text-xl" >
+                Coffee Shop
+            </p>
+        </figure>
+
+        <nav>
+            <ul id="navbar" class="flex md:justify-between space-x-3 md:space-x-7 " style="color:#4F5665;">
+                <li class="font-semibold hover:text-yellow-900"><a href="index.html">Home</a></li>
+                <li class="font-semibold hover:text-yellow-900"><a href="product.html">Product</a></li>
+                <li class="font-semibold hover:text-yellow-900"><a href="yourcart.html">Your Cart</a></li>
+                <li class="font-semibold hover:text-yellow-900"><a href="histori.html">History</a></li>
+            </ul>
+        </nav>
+
+        <nav id="navbar2" class="flex md:justify-between space-x-7">
+            
+            <img src="assets3/Vector.png" class="w-8 h-8">
+            <img src="assets3/chat.png" class="w-8 h-8">
+            <a href="profil.html"><img src="assets3/ujung.png" class="w-8 h-8 rounded-full"></a>
+        </nav>
+        
+    </header>
+
+
+    <main class="bg ">
+        <p class="text-white text-2xl md:text-4xl font-medium pt-14 pb-12 md:pl-32 text-center md:text-left"> User Profil</p>
+        <section class="flex md:space-y-0 space-y-8 flex-col md:flex-row md:mx-0 mx-4 md:space-x-6 justify-center ">
+            <article class="flex flex-col">
+            <div class="flex flex-col bg-white px-10 md:h-96 h-48 rounded-t-xl text-center space-y-6 ">
+                
+                <section class="relative pt-2 md:pt-12">
+                <img src="assets4/people.png " class="w-20 h-20 mr-auto ml-auto rounded-full">
+
+                <div class="w-6 h-6 rounded-full bg-yellow-900 absolute ml-44 -mt-6 text-center hover:bg-yellow-400 ">
+                    <i class="fas fa-pen text-xs text-white "></i></div>
+                
+                </section>
+
+                <section class="">
+                <p class="font-bold text-xl">Zulaikha  </p>
+                <p class="text-lg md:pt-2 text-black" style="color:#4F5665;">zulaikha17@gmail.com</p>
+                </section>
+
+                <p style="color:#4F5665;">Has been ordered 15 products</p>
+            </div>
+            <div class="bg-yellow-900 w-full h-4  rounded-b-xl"></div>
+            </article>
+
+            <article class="flex flex-col">
+            <div class="bg-white h-96 md:px-20 rounded-t-xl">
+                <div class="flex md:flex-row flex-col  justify-between ml-7 mr-5 pt-4 pb-4">
+                <p class="font-bold text-2xl md:pt-10" style="color:#4F5665;">Contacts</p> 
+                
+                <div class="bg-yellow-900 w-10 h-10 rounded-full text-center hover:bg-yellow-400">
+                    <i class="fas fa-pen text-xl mt-2 text-white "></i>
+                </div>
+                </div>
+
+                
+                    <section class="flex flex-col md:flex-row justify-between ml-8 mr-8">
+                        <div class="flex  flex-col w-60 md:w-80">
+                            <label for="email" class="mb-4">Email adress :</label>
+                            <input type="text" name="email" class=" bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-yellow-400 border-black">
+                        </div>
+                        <div class="flex flex-col w-60 md:w-80">
+                            <label for="email" class="mb-4">Mobile number : </label>
+                            <input type="text" name="email" class=" bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-yellow-400 border-black">
+                        </div>
+                    </section>
+                   
+                        <section class="flex  flex-col w-60 md:w-80    ml-8 pt-6 ">
+                            <label for="email" class="mb-4">Delivery adress :</label>
+                            <input type="text" name="email" class=" bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-yellow-400 border-black">
+                        </section>
+                    
+
+ 
+                
+
+            </div>
+            <div class="bg-yellow-900  w-full h-4  rounded-b-xl"></div>
+            </article>
+        </section>
+
+        <div class="flex flex-col md:flex-row justify-center mt-24 md:space-x-20">
+            <div class="flex flex-col">
+
+            <div class="bg-white mx-4 md:mx-0 rounded-xl">
+                <p class="font-bold text-2xl pl-8 pt-7"  style="color:#4F5665;">Details</p> 
+                <div class="flex flex-col md:flex-row">
+                <article class="">
+                <section class="flex  flex-col w-60 md:w-80 ml-8 pt-4">
+                    <label for="email" class="mb-2">Display name :</label>
+                    <input type="text" name="email" class=" bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-yellow-400 border-black">
+                </section>
+
+                <section class="flex  flex-col w-60 md:w-80 ml-8 pt-4">
+                    <label for="email" class="mb-2">First name :</label>
+                    <input type="text" name="email" class=" bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-yellow-400 border-black">
+                </section>
+
+                <section class="flex  flex-col w-60 md:w-80 ml-8 pt-4">
+                    <label for="email" class="mb-2">Last name :</label>
+                    <input type="text" name="email" class=" bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-yellow-400 border-black">
+                </section>
+                </article>
+
+                <article class="md:pl-20 md:pb-16 pb-10">
+                    <div class="flex  flex-col w-80 ml-8 pt-8 pb-6">
+                        <label for="email" class="mb-4">DD/MM/YY</label>
+                        <input type="date" name="email" class=" bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-yellow-400 border-black w-52">
+                    </div>
+                    <section class="pl-8">
+                        <div class="rounded-full pb-6">
+                            <input type="checkbox" />
+                            <label>Male</label>
+                        </div>
+                        <div class="rounded-full">
+                            <input type="checkbox" />
+                            <label>Female</label>
+                        </div>
+                    </section>
+                </article>
+                </div>
+
+            </div>
+
+            <!-- <div class="bg-yellow-900 box2-1 rounded-b-xl"></div> -->
+            </div>
+
+            <div class="flex flex-col items-center md:mt-0 mt-10 ">
+                <div class="text-2xl font-bold text-white w-80 text-center mb-12">Do you want to save the change?</div>
+                <div class="flex flex-col space-y-4 md:space-y-8">
+                    <div class="flex flex-col space-y-6">
+                    <button class="text-lg md:text-xl md:w-72 w-60 md:h-14 h-10 font-bold bg-yellow-900 text-white hover:bg-yellow-700 font-bold rounded-2xl ">
+                        Save Change
+                    </button>
+                    <button class="text-lg md:text-xl md:w-72 w-60 md:h-14 h-10 font-bold bg-yellow-400 text-yellow-900 hover:bg-yellow-200 font-bold rounded-2xl ">
+                        Cancel
+                    </button>
+                    </div>
+
+                    <div class="flex flex-col space-y-6">                       
+                        <button class="text-lg md:text-xl md:w-72 w-60 md:h-14 h-10 font-bold bg-white text-yellow-900 hover:bg-gray-300 font-bold rounded-2xl flex flex-row  space-x-36 justify-center ">
+                            <p class="mt-auto mb-auto mr-2">Log out </p>
+                            <!-- <p class="mb-2 text-5xl">&#8250</p> -->
+                            
+                        </button>
+                    <button class="text-lg md:text-xl md:w-72 w-60 md:h-14 h-10 font-bold bg-white text-yellow-900 hover:bg-gray-300 font-bold rounded-2xl flex flex-row  space-x-24 justify-center  ">
+                        <p class="mt-auto mb-auto"> Edit Password </p>
+                        <!-- <div class="mb-2 text-5xl">&#8250</div> -->
+                        
+                    </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+    
+
+
+    <footer class="bg-gray-100 footer bg-gray-100 flex flex-col px-4 md:mx-0 md:flex-row justify-around pt-24 md:-ml-40 ">
+
+      
+        <section>
+            <figure class="flex space-x-3">
+                    <img src="assets/coffe-icon.png " >
+                <p id="coffe_shop" class="items-center font-bold text-xl" >
+                    Coffee Shop
+                </p>
+            </figure>
+
+            <p id="text9" class="w-80 font-medium text-base pb-7 pt-7">Coffee Shop is a store that sells some good meals, and especially coffee. We provide high quality beans 
+            </p>
+
+            <figure class="flex">
+                <img src="assets/fb.png" class="mr-2 w-10 h-10">
+                <img src="assets/twit.png" class="mx-2 w-10 h-10" >
+                <img src="assets/ig.png" class="mx-2 w-10 h-10" >
+            </figure>
+            
+            <p class="pt-7" style="color:#AFB5C0; ">©2020CoffeeStore</p>
+        </section>
+
+        <section class="bg-gray-100 flex -mr-44 md:pb-0 pb-10">
+        <p class="leading-10 text-sm md:text-lg pr-32" style="color: #4F5665;">
+            <span class="font-medium text-black"> Product </span> <br>
+            Download <br>
+            Pricing <br>
+            Locations <br>
+            Countries <br>
+            Blog <br>
+        </p>
+
+        <p class="leading-10 text-sm md:text-lg" style="color: #4F5665;">
+            <span class="font-medium text-black"> Engage </span> <br>
+            Coffe Shop ?  <br>
+            FAQ <br>
+            About Us <br>
+            Privacy Policy <br>
+            Terms of Service <br>
+        </p>
+        </section>
+
+  
+
+    </footer>
+</body>
+</html>
